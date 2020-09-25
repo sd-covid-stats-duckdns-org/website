@@ -4,6 +4,7 @@ import re
 from pdfreader import SimplePDFViewer, PageDoesNotExist
 import urllib.request
 import shutil
+import csv
 
 def scrape_html() -> list:
     url = "http://example.com"
